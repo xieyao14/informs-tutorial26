@@ -7,7 +7,7 @@ This repository contains companion code for the paper:
 Xiuyuan Cheng, Yunqin Zhu, and Yao Xie.
 *INFORMS TutORials in Operations Research*, 2026.
 
-The code was developed by **Yunqin Zhu**.
+The code was developed by **Yunqin Zhu**. (yzhu812@gatech.edu)
 
 Two standalone examples are included:
 
