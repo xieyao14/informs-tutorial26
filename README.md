@@ -1,12 +1,18 @@
 # Generative DRO Reproduction
 
-Two standalone examples:
+This repository contains companion code for the paper:
 
-- `examples/outage`: flow-based scenario generation for county outage counts.
-- `examples/portfolio`: flow-generated return scenarios followed by DRO portfolio optimization.
+**Generative models for decision-making under distributional shift**
+Xiuyuan Cheng, Yunqin Zhu, and Yao Xie.
+In revision, *INFORMS TutORials in Operations Research*, 2026.
 
-  Code by Yunqin Zhu (yzhu812@gatech.edu)
+The code was developed by **Yunqin Zhu**. (yzhu812@gatech.edu)
 
+Two standalone examples are included:
+
+* `examples/outage`: flow-based scenario generation for county outage counts.
+* `examples/portfolio`: flow-generated return scenarios followed by DRO portfolio optimization.
+  
 ## Setup
 
 ```bash
