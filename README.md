@@ -5,6 +5,8 @@ Two standalone examples:
 - `examples/outage`: flow-based scenario generation for county outage counts.
 - `examples/portfolio`: flow-generated return scenarios followed by DRO portfolio optimization.
 
+  Code by Yunqin Zhu (yzhu812@gatech.edu)
+
 ## Setup
 
 ```bash
