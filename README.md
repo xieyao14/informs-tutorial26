@@ -3,6 +3,7 @@
 This repository contains companion code for the paper:
 
 **[Generative models for decision-making under distributional shift](https://arxiv.org/abs/2604.04342)**
+
 Xiuyuan Cheng, Yunqin Zhu, and Yao Xie.
 In revision, *INFORMS TutORials in Operations Research*, 2026.
 
