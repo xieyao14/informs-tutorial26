@@ -11,8 +11,8 @@ The code was developed by **Yunqin Zhu**. (yzhu812@gatech.edu)
 
 Two standalone examples are included:
 
-* `examples/outage`: flow-based scenario generation for county outage counts.
-* `examples/portfolio`: flow-generated return scenarios followed by DRO portfolio optimization.
+* `outage`: flow-based scenario generation for county outage counts.
+* `portfolio`: flow-generated return scenarios followed by DRO portfolio optimization.
 
   
 ## Setup
