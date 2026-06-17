@@ -1,4 +1,4 @@
-# Generative DRO Reproduction
+# Generative DRO Examples
 
 This repository contains companion code for the paper:
 
