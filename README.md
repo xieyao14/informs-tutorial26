@@ -78,7 +78,7 @@ $$
 where $\mu_y,\sigma_y\in\mathbb R^d$ are countywise training statistics, and $\oslash$ and $\odot$ denote elementwise division and multiplication. A generated sample $\hat x_i$ is mapped back to outage counts by
 
 $$
-\hat c_i = \operatorname{round}\!\left((\exp(\mu_y + \sigma_y\odot \hat x_i)-1)_+\right).
+\hat c_i = \mathrm{round}\!\left((\exp(\mu_y + \sigma_y\odot \hat x_i)-1)_+\right).
 $$
 
 The joint representation allows the flow model to learn spatial dependence across counties. Evaluation compares county marginals and correlations, and computes MMD between real and generated outage counts after the log transformation. For real samples $a_1,\ldots,a_m$ and generated samples $b_1,\ldots,b_n$ used in the evaluation, define the RBF kernel
@@ -92,14 +92,14 @@ where $h$ is the median positive squared distance between real samples $a'_1,\ld
 $$
 \ell^2=h,
 \qquad
-h=\operatorname{median}\left\{\|a'_i-a'_j\|_2^2:
+h=\mathrm{median}\left\{\|a'_i-a'_j\|_2^2:
 1\le i<j\le p,\; \|a'_i-a'_j\|_2^2>0\right\}.
 $$
 
 The empirical squared MMD is
 
 $$
-\widehat{\operatorname{MMD}}^2
+\widehat{\mathrm{MMD}}^2
 =
 \frac{1}{m^2}\sum_{i=1}^m\sum_{j=1}^m k(a_i,a_j)
 +
